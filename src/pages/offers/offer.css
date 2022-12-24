@@ -1,0 +1,29 @@
+.offers{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.ofHeader{
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    font-family: PlayfairDisplay,Georgia,Times New Roman,serif;
+}
+
+.row{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.cards{
+    width: 100%;
+    padding-left: 50px;
+}
+
+.first{
+    display: flex;
+    width: 100%;
+    
+}

@@ -1,0 +1,47 @@
+.experience{
+    width: 100%;
+    padding-left: 35px;
+}
+
+.experHead h2{
+    color: #104C97;
+    font-size: 2.25rem;
+}
+
+.experHead p {
+    color: #121212;
+    font-size: 1.25rem;
+}
+.row{
+    display: flex;
+}
+
+.row .col-4{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.col-4 img{
+    opacity: 0.89;
+    width: 410px;
+    cursor: pointer;
+    background-color: #000;
+}
+
+.col-4 p{
+    opacity: 0.89;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-left: 40px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: -80px;
+    font-weight: 800;
+    width: 380px;
+}
+
+.col-4:hover p{
+    opacity: 0.89;
+    margin-top: -150px;
+}

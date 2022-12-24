@@ -1,0 +1,138 @@
+.carousel-item {
+    width: 100%;
+    height: 75vh!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+  
+.carousel-item::before {
+    content: '';
+    /* background-color: rgba(12, 11, 10, 0.5); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.carousel-indicators {
+    top: 5%;
+    left: 70%;
+    width:200px;
+    height: 50px;
+    gap: 20px;
+}
+
+
+.carousel-caption {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin-left: 65px;
+  }
+  
+
+.carousel-caption h4 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    width: 80%;
+    margin: 0px auto 30px auto;
+  }
+  
+  .carousel-caption h6 {
+    
+    font-size: 22px;
+    width: 80%;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    margin: 0px auto 30px auto;
+  }
+
+  .headerSearch{
+    margin-left: 80px;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 20px 0px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: -100px;
+    width: 100%;
+    max-width: 1200px;
+    background-color: #ffffff99;
+    gap: 40px;
+}
+
+.headerSearchItem{
+    display: flex;
+}
+
+.headerIcon{
+    color: gray;
+   margin-left: 10px;
+}
+
+.hSearch{
+    margin-left: 10px;
+    width: 400px;
+    height: 50px;
+    /* display: flex; */
+    align-items: center;
+    background-color: #fff;
+}
+
+.startingDate{
+    width: 200px;
+    height: 50px;
+    border-right: 1 night;
+    padding-top: 10px;
+}
+.endingDate{
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.dates{
+    position: absolute;
+    top: 50px;
+}
+
+.headerSearchItems{
+   margin-left: -30px;
+   width: 350px;
+   height: 50px;
+   background-color: #fff;
+   padding-top: 10px;
+}
+
+.headerSearchIte{
+    margin-left: -30px;
+    width: 300px;
+    height: 50px;
+    background-color: #fff;
+    padding-top: 10px;
+ }
+
+ .headerSearchItemButton button{
+    margin-left: -30px;
+    width: 100px;
+    height: 50px;
+    background-color: #876a20;
+    color: #fff;
+    border: none;
+ }

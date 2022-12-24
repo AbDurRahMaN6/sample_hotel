@@ -1,0 +1,121 @@
+.destination{
+    width: 100%;
+    text-align: center;
+}
+.desHeading{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: "BodoniStd-BookItalic", serif;
+}
+
+.desHeading h3{
+    font-weight: 500;
+    font-size: 70px;
+    color: #77328b;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+
+.seValues{
+    top: 20px;
+    position: absolute;
+    
+}
+
+.destSelect{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    
+}
+
+.destSelect .dropdown{
+    width: 550px;
+    height: 100%;
+    left: 30%;
+    outline: 0;
+}
+
+
+.destSelect .dropdown .form-select{
+    color: #252776 !important;
+    font-family: "BodoniStd-BookItalic", serif;
+    font-size: 20px;
+    font-style: italic;
+    top: 20px;
+    height: 50px;
+    border-radius: 0;
+    outline: 0;
+    overflow: hidden;
+}
+.destSelect .dropdown .form-select:focus{
+    outline: none;
+    border: none;
+}
+
+.imageDesc{
+    padding-top: 50px;
+    width: 100%;
+    justify-content: left;
+    display: flex;
+    padding-bottom: 100px;
+}
+.desImage{
+    display: flex;
+   
+    
+}
+
+.desImage .dImage1{
+    width:300px;
+    height: 200px;
+    margin-left: 100px;
+    /* margin-right: 200px; */
+}
+
+.desImage .dImage2{
+    margin-left: -100px;
+}
+
+.imDesc{
+    background-color: #fff;
+    width: 50px
+}
+
+.card{
+    text-align: left;
+    box-shadow: 1px 5px 20px #9a9a9a;
+    width: 350px;
+    position: absolute;
+    padding: 60px 40px;
+    margin-top: 60px;
+    height: 470px;
+    margin-left: -120px;
+}
+
+.card .card-body h4{
+    width: 250px;
+    font-family: "BodoniStd-BookItalic", serif;
+    color: #77328b;
+    font-size: 28px;
+}
+
+.card .card-body p{
+    color: #1b1b1b;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 250px;
+}
+
+.card .card-body button{
+    font-family: "BodoniStd-BookItalic", serif;
+    font-size: 20px;
+    border-radius: 0;
+    background-color: #252776;
+    color: #FFFFFF;
+    border: none;
+    width: 160px;
+    height: 60px;
+    font-style: italic;
+    margin-top: 10px;
+}

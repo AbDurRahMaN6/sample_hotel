@@ -1,0 +1,205 @@
+.footerItems{
+    margin-top: 55px;
+    padding-top: 55px;
+    width: 100%;
+    background-size: cover;
+    background-color: #fff;
+    height: 700px;
+}
+
+.container-fluid{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    
+}
+
+.footer{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.listAbout label{
+    font-family: "BodoniStd-BookItalic", serif;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #77328b;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.listAbout{
+    width: 280px;
+    padding: 0;
+    letter-spacing: -1px;
+    margin-left: 100px;
+    list-style: none;
+}
+
+.listAbout li .link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #9a9a9a;
+    font-family: "UniversLT-Light", serif;
+    padding: 8px 0;
+    display: block;
+    cursor: pointer;
+}
+
+.listAbout li .link:hover{
+    color: #1b1b1b;
+}
+
+
+.listAdvertise{
+    width: 350px;
+    padding: 0;
+    letter-spacing: -1px;
+    margin-left: 50px;
+    list-style: none;
+}
+
+.listAdvertise label{
+    font-family: "BodoniStd-BookItalic", serif;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #77328b;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.listAdvertise li .link{
+    text-decoration: none;
+    font-size: 18px;
+    color: #9a9a9a;
+    font-family: "UniversLT-Light", serif;
+    padding: 8px 0;
+    display: block;
+    cursor: pointer;
+}
+
+.listAdvertise li .link:hover{
+    color: #1b1b1b;
+}
+
+
+.listAdvertise .adItems{
+    margin-top: 5px;
+    line-height: 120%;
+    cursor: pointer;
+}
+
+.listAdvertise .adItems:hover{
+    color: #808080;
+
+}
+
+
+.social{
+    width: 800px;
+    padding: 0;
+    list-style: none;
+}
+
+.social .socialThings label{
+    font-family: "BodoniStd-BookItalic", serif;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #77328b;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.socialThings{
+    padding-bottom: 50px;
+}
+
+.social .socialIcons{
+    display: flex;
+    gap: 20px;
+    color: #9a9a9a;
+}
+
+.socialIcons .sIcons:hover{
+    color: #77328b;
+}
+
+.social .message label{
+    font-family: "BodoniStd-BookItalic", serif;
+    font-style: italic;
+    text-transform: capitalize;
+    color: #77328b;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.textBox{
+    display: flex;
+    border: solid 1px #d3d5e5;
+    width: 480px;
+    height: 75px;
+    border-radius: 0;
+    color: #9a9a9a;
+}
+
+.textBox input{
+    width: 400px;
+    height: 70px;
+    padding-left: 20px;
+    border: none;
+    color: #9a9a9a;
+    outline: 0;
+}
+
+.textBox input:hover{
+    outline: none;
+}
+
+.textBox button{
+    width: 70px;
+    height: 70px;
+    border: none;
+    align-items: center;
+    background-color: #fff;
+}
+
+
+.textBox .rightSearch{
+    color: #9a9a9a;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.check{
+    font-family: "UniversLT-Light", serif;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    width: 420px;
+    color: #9a9a9a;
+    font-size: 13px;
+    cursor: pointer;
+    
+}
+
+.check input{
+    margin-left: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 20px;
+    color: #808080;
+    background-color: #808080 ;
+}
+
+.check .pLabel{
+    font-style:none ;
+
+}
+
