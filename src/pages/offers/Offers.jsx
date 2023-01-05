@@ -142,3 +142,12 @@ const Offers = () => {
 };
 
 export default Offers;
+
+
+// const Offers = () => {
+//   return(
+//     <div>Offers</div>
+//   )
+// }
+
+// export default Offers

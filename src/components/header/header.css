@@ -9,47 +9,115 @@
     padding-top: 20px;
 }
 
-.headerItem{
-    width: 100%;
-    margin-left: 50px;
-    /* padding-top: 5px; */
-    text-transform: uppercase;
-    padding: 6px 10px;
-    font-size: 15px;
+.ddList{
     display: flex;
-    list-style: none;
-    box-sizing: border-box;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.ddList .dropdown{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropBtn{
+    background-color: #333;
+    color: #fff;    
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    text-transform: uppercase;
     font-weight: 600;
-    gap: 10px;
+    float: left;
+    overflow: hidden;
+}
+.arrow {
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 0.15em solid currentColor;
+    border-bottom: 0.15em solid currentColor;
+    transform: rotate(-45deg);
+    margin-left: 0.38em;
+    margin-top: -0.25em;
+    transition: transform 100ms ease-in-out;
+  }
+
+  .dropdown:hover >.dropBtn > .arrow {
+    transform: rotate(-225deg);
+    margin-top: 4px;
+  }
+
+.ddContent{
+    top: 42px;
+    padding-top: 20px;
+    padding-left: 55px;
+    padding-bottom: 15px;
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 1349px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-.header-link{
-    color: #fff;
+h4{
+    color: #333;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+
+.ddContent .linking{
+    color: #333;
+    font-weight: 400;
+    padding: 3px 1px;
     text-decoration: none;
-    margin-left: 50px;
+    display: block
 }
 
-.header-link:hover{
+.ddContent .linking:hover
+{
     color: #000;
     text-decoration: none;
-}
-.dropdown ul{
-    width: 1250px;
-}
-.dropdown-menu li{
-    text-transform: capitalize;
-}
-
-.dropdown-item:hover{
+    background-color: #fff;
+    height: 100%;
     color: #876a20;
 }
 
-.dropdown-menu h6{
-    margin-top: 10px;
-    text-transform: capitalize;
-    color: #000;
-    padding-left: 15px;
+.dropdown:hover .ddContent {
+    display: block;
 }
+
+.dropdown:hover .dropBtn {
+    /* background-color: #fff; */
+    color: #000;
+    font-weight: 600;
+}
+.row{
+    width: 800px;
+    margin-left: 15px;
+}
+
+.column {    
+    float: left;
+    width: 23%;
+    padding-left: 0px;
+    /* padding: 10px; */
+    /* height: 250px; */
+  }
+  .ddContent .roomLink{
+    color: #333;
+    font-weight: 400;
+    padding: 3px 1px;
+    text-decoration: none;
+    display: block
+}
+  .column .roomLink:hover{
+    color: #876a20;
+  }
 
 .buttons{
     display: flex;
@@ -57,8 +125,7 @@
     text-align: center;
     margin-top: -12px;
     width: 130px;
-    height: 35px;
-    
+    height: 35px; 
     border: 1px solid #fff;
     
 }
@@ -66,6 +133,5 @@
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
-    font-weight: 600;
-    
+    font-weight: 600;   
 }

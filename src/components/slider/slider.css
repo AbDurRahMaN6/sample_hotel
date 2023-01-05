@@ -35,9 +35,9 @@
     align-items: center;
     position: absolute;
     bottom: 0;
-    top: 25%;
+    top: 30%;
     left: 0;
-    right: 0;
+    right: 20%;
     margin-left: 65px;
   }
   
@@ -48,16 +48,16 @@
     font-size: 32px;
     font-weight: 700;
     width: 80%;
-    margin: 0px auto 30px auto;
+    margin: 10px auto 30px 20px;
   }
   
   .carousel-caption h6 {
-    
     font-size: 22px;
     width: 80%;
     -webkit-animation-delay: 0.4s;
     animation-delay: 0.4s;
-    margin: 0px auto 30px auto;
+    font-weight: 400;
+    margin:10px auto 30px 20px;
   }
 
   .headerSearch{

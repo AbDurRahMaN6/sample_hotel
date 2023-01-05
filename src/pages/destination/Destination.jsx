@@ -13,6 +13,7 @@ const Destination = () => {
             <select
               className="form-select"
               aria-label=".form-select-lg example"
+              style={{outline: "none"}}
             >
               <option className="dvalue" value="1">
                 Cinnamon Life
