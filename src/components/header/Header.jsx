@@ -66,9 +66,8 @@ const Header = () => {
           <Link className="roomLink">Executive Suite & Premier Ocean Room Connecting</Link>
           <Link className="roomLink">Two Deluxe Lake View Rooms Connecting</Link>
         </div>
-
-        <hr></hr>
       </div>
+      <hr />
             </div>
           </div>
           <div className="dropdown">
