@@ -35,7 +35,7 @@
     align-items: center;
     position: absolute;
     bottom: 0;
-    top: 30%;
+    top: 35%;
     left: 0;
     right: 20%;
     margin-left: 65px;
@@ -66,10 +66,10 @@
     height: 70px;
     align-items: center;
     /* justify-content: space-around; */
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     border-radius: 5px;
     position: absolute;
-    margin-top: -100px;
+    margin-top: -80px;
     width: 100%;
     max-width: 1200px;
     background-color: #ffffff99;
